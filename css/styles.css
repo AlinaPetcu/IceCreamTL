@@ -1,0 +1,331 @@
+
+
+body{
+    font-family:'DM Sans','Titan One';
+    font-style: normal;
+    line-height: normal;
+}
+
+p{
+    margin: 0;
+}
+
+    /* .container{
+        width: 1280px;
+    } */
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right:16px;
+    padding-left: 16px;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+.header-buy-button{
+    width: 159px;
+    height: 44px;
+    border-radius: 22px;
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap:12px;
+    color: #D41443;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 700;
+    cursor:pointer
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+}
+
+.header-hero-section{
+    background-color: #FFB8CA ;
+    /* position: absolute; */
+    /* z-index: -2; */
+}
+
+.header-title{
+    color: #FFF;
+    
+        font-family: "Titan One";
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.52px;
+        text-transform: uppercase;
+        width: 277px;
+}
+
+.header-title-evidence{
+    color: #D41443;
+        font-family: "Titan One";
+        font-size: 58px;
+        font-weight: 400;
+        line-height: 90.5%;
+        letter-spacing: 2.32px;
+        text-transform: uppercase;
+}
+
+.header-hero-decoration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;    
+    padding-left: 16px;
+    margin-top: 60px;
+
+}
+
+.header-products-button{
+    width: 107px;
+    height: 40px;
+    border-radius: 20px;
+    background: #D41443;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+               
+}
+
+.header-how-button{
+    width: 138px;
+    height: 40px;
+    border-radius: 20px;
+    color: #D41443;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.header-right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-right: 16px;
+    margin-top: 72px;
+}
+
+.header-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+
+.header-motivation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-motivation-paragraph{
+    width: 200px;
+        height: 78px;
+    color: #FFF;
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 19.6px */
+}
+
+.header-middle-side{
+ display: flex;
+ justify-content: flex-start;
+}
+
+.header-middle-ellipse{
+    width: 534px;
+    height: 534px;
+    border-radius: 534px;
+    background: #FFA5BA;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* z-index: -1; */
+    top:-10px;
+    left: 405px;
+    
+}
+
+.header-middle-image{
+
+    width: 236px;
+        height: 557px;
+        margin-top: 40px;
+    /* position: relative; */
+        /* z-index: 1; */
+}
+
+.header-rating{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 38px;
+    
+}
+
+.header-rating-partial{
+    text-align: right;
+}
+
+.header-rating-number1{
+    color: #D41443;
+    text-align: right;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Titan One";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.84px;
+    text-transform: uppercase;
+    border-color: #000000;
+}
+
+.header-rating-number2{
+    color: #D41443;
+    text-align: right;
+    font-family: "Titan One";
+    font-size: 46px;
+    font-weight: 400;
+    letter-spacing: 1.84px;
+    text-transform: uppercase;
+}
+
+.header-rating-type{
+    color: #FFF;
+    text-align: right;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-girl{
+    width: 304px;
+        height: 241px;
+}
+
+
+/* start products section css*/
+
+.products-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:60px;
+}
+.products-natural{
+    color: #FFA5BA;
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.products-title{
+    color: #D41443;
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.products-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 60px;
+}
+
+.products-presentation-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 368px;
+        min-height: 535px;
+        border-radius: 24px;
+        padding-bottom: 60px;
+            
+}
+
+.products-pink{
+    background: #FFB8CA;}
+
+.products-coffee{
+    background: #F0D1A5;
+    }
+
+    .products-milkshakes{
+        background: #C2E297;
+    }
+
+.products-type{
+    color: #FFF;
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.products-description{
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 176%;
+    letter-spacing: 0.64px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+/* end products section css*/
