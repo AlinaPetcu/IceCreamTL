@@ -6,23 +6,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+
     <title>IceCream</title>
 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div>
+    <header class="container">
+      <div class="header-hero-section">
         <nav class="nav-bar">
           <svg width="199" height="50">
             <use href="./images/icons.svg#logo"></use>
@@ -57,9 +58,112 @@
               <a class="link" href="">Contacts</a>
             </li>
           </ul>
-          <button type="button">Buy now ></button>
+          <button type="button" class="header-buy-button">
+            Buy now
+            <svg width="4" height="8">
+              <use href="./images/icons.svg#button-vector"></use>
+            </svg>
+          </button>
         </nav>
+        <div class="header-hero-decoration">
+          <div class="header-left-side">
+            <h1 class="header-title">
+              ice cream made with
+              <span class="header-title-evidence">passion</span>
+            </h1>
+            <div class="header-buttons">
+              <button type="button" class="header-products-button">
+                Products
+              </button>
+              <button type="button" class="header-how-button">
+                How it s made?
+              </button>
+            </div>
+            <div class="header-motivation">
+              <img src="./images/milk-image.jpg" alt="MilkImage" />
+              <p class="header-motivation-paragraph">
+                Indulge in a scoop of ice cream made with passion and treat your
+                taste buds to an unforgettable experience!<br /><br />
+                <img src="./images/arrow-rights.png" alt="ArrowRight" />
+              </p>
+            </div>
+          </div>
+          <div class="header-middle-side">
+            <img class="header-middle-ellipse" src="" alt="" />
+            <img
+              class="header-middle-image"
+              src="./images/big-icecream.png"
+              alt="Icecream"
+            />
+          </div>
+          <div class="header-right-side">
+            <div class="header-rating">
+              <div class="header-rating-partial">
+                <svg width="30" height="30">
+                  <use href="./images/icons.svg#ellipse-hero"></use>
+                </svg>
+                <p class="header-rating-number1">16</p>
+                <p>cafes</p>
+              </div>
+              <div class="header-rating-partial">
+                <svg width="30" height="30">
+                  <use href="./images/icons.svg#ellipse-hero"></use>
+                </svg>
+                <p class="header-rating-number2">23</p>
+                <p class="header-rating-type">food trucks</p>
+              </div>
+            </div>
+            <img
+              class="header-girl"
+              src="./images/girl-image.jpg"
+              alt="GirlImage"
+            />
+          </div>
+        </div>
       </div>
     </header>
+    <!--Products section-->
+    <section class="products-section">
+      <span class="products-natural">100% natural</span>
+      <h2 class="products-title">products</h2>
+      <div class="products-container">
+        <div class="products-presentation-container products-pink">
+          <img src="./images/pink-icecream-image.jpg" alt="PinkIceCream" />
+          <span class="products-type">ice cream</span>
+          <svg width="25" height="6">
+            <use href="./images/icons.svg#dots"></use>
+          </svg>
+          <p class="products-description">
+            Indulge in our rich and creamy ice cream, handcrafted with
+            all-natural ingredients and available in a variety of flavors.
+          </p>
+          <img src="./images/arrow-rights.png" alt="ArrowRight" />
+        </div>
+        <div class="products-presentation-container products-coffee">
+          <img src="./images/icecoffee-image.jpg" alt="IceCoffeImage" />
+          <span class="products-type">ice coffee</span>
+          <svg width="25" height="6">
+            <use href="./images/icons.svg#dots"></use>
+          </svg>
+          <p class="products-description">
+            Refresh and energize with our perfectly brewed iced coffee, made
+            with high-quality beans and served over ice.
+          </p>
+          <img src="./images/arrow-rights.png" alt="ArrowRight" />
+        </div>
+        <div class="products-presentation-container products-milkshakes">
+          <img src="./images/milkshakes-image.jpg" alt="MilkhakesImage" />
+          <span class="products-type">milkshakes</span>
+          <svg width="25" height="6">
+            <use href="./images/icons.svg#dots"></use>
+          </svg>
+          <p class="products-description">
+            Satisfy your sweet tooth with our thick, made with premium ice
+            cream, topped with whipped cream and your favorite toppings.
+          </p>
+          <img src="./images/arrow-rights.png" alt="ArrowRight" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
