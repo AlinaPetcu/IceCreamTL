@@ -34,15 +34,17 @@
           <img src="./images/portfolio-img10.jpg" alt="Img10" />
         </div>
       </div>
-      <div class="testimonial-box">
-        <div>
-          <svg width="60" height="40" fill="#E1E1E1">
-            <use href="./images/icons.svg#left-arrow-testimonial"></use>
-          </svg>
-        </div>
-
-        <div class="testimonial-all">
-          <!--Testimonial1-->
+      <div>
+        <div class="testimonial-box">
+          <button
+            type="button"
+            onclick="onBack()"
+            class="hero-control-button hero-control-button-dark testimonial-section"
+          >
+            <svg width="60" height="40" fill="#E1E1E1">
+              <use href="./images/icons.svg#left-arrow-testimonial"></use>
+            </svg>
+          </button>
           <div class="hero-carousel-item" data-carousel-item>
             <img
               class="testimonials-img-size"
@@ -65,7 +67,7 @@
             </svg>
 
             <p class="testimonials-row">Emily, Los Angeles</p>
-            <p class="testimonials-row">
+            <!-- <p class="testimonials-row">
               <svg width="12" height="12">
                 <use href="./images/icons.svg#house-icon"></use>
               </svg>
@@ -75,33 +77,36 @@
               <svg width="12" height="12">
                 <use href="./images/icons.svg#testimonials-ellipse"></use>
               </svg>
-            </p>
+            </p> -->
           </div>
+          <div class="hero-container">
+            <div class="hero-carousel">
+              <!--Testimonial1-->
 
-          <!--Al doilea testimonial-->
-          <div class="hero-carousel-item" data-carousel-item>
-            <img
-              class="testimonials-img-size"
-              src="./images/testimonials-img2.jpg"
-              alt="Testimonial2"
-            />
-            <div class="testimonial-container">
-              <span class="testimonials1">
-                <svg width="54" height="40">
-                  <use href="./images/icons.svg#ghilimele"></use>
+              <!--Al doilea testimonial-->
+              <div class="hero-carousel-item" data-carousel-item>
+                <img
+                  class="testimonials-img-size"
+                  src="./images/testimonials-img2.jpg"
+                  alt="Testimonial2"
+                />
+                <div class="testimonial-container">
+                  <span class="testimonials1">
+                    <svg width="54" height="40">
+                      <use href="./images/icons.svg#ghilimele"></use>
+                    </svg>
+                    Nullam viverra consectetuer. Quisque cursus et, porttitor
+                    risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
+                    conque. Lorem ipsum primis in nibh vel risus.
+                  </span>
+                </div>
+
+                <svg width="32" height="4">
+                  <use href="./images/icons.svg#icon-Group-8"></use>
                 </svg>
-                Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
-                Aliquam sem. In hendrerit nulla quam nunc, accumsan conque.
-                Lorem ipsum primis in nibh vel risus.
-              </span>
-            </div>
 
-            <svg width="32" height="4">
-              <use href="./images/icons.svg#icon-Group-8"></use>
-            </svg>
-
-            <p class="testimonials-row">Agata, California</p>
-            <p class="testimonials-row">
+                <p class="testimonials-row">Agata, California</p>
+                <!-- <p class="testimonials-row">
               <svg width="12" height="12">
                 <use href="./images/icons.svg#testimonials-ellipse"></use>
               </svg>
@@ -111,15 +116,62 @@
               <svg width="12" height="12">
                 <use href="./images/icons.svg#testimonials-ellipse"></use>
               </svg>
-            </p>
+            </p>-->
+              </div>
+
+              <!--Al doilea testimonial-->
+              <div class="hero-carousel-item" data-carousel-item>
+                <img
+                  class="testimonials-img-size"
+                  src="./images/testimonials-img2.jpg"
+                  alt="Testimonial2"
+                />
+                <div class="testimonial-container">
+                  <span class="testimonials1">
+                    <svg width="54" height="40">
+                      <use href="./images/icons.svg#ghilimele"></use>
+                    </svg>
+                    Nullam viverra consectetuer. Quisque cursus et, porttitor
+                    risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
+                    conque. Lorem ipsum primis in nibh vel risus.
+                  </span>
+                </div>
+
+                <svg width="32" height="4">
+                  <use href="./images/icons.svg#icon-Group-8"></use>
+                </svg>
+
+                <p class="testimonials-row">Agatablaa, California</p>
+                <!-- <p class="testimonials-row">
+              <svg width="12" height="12">
+                <use href="./images/icons.svg#testimonials-ellipse"></use>
+              </svg>
+              <svg width="12" height="12">
+                <use href="./images/icons.svg#house-icon"></use>
+              </svg>
+              <svg width="12" height="12">
+                <use href="./images/icons.svg#testimonials-ellipse"></use>
+              </svg>
+            </p> -->
+              </div>
+            </div>
           </div>
-        </div>
-        <div>
-          <svg width="60" height="40" fill="#E1E1E1">
-            <use href="./images/icons.svg#right-arrow-testimonial"></use>
-          </svg>
+          <button
+            type="button"
+            onclick="onNext()"
+            class="hero-control-button hero-control-button-dark"
+          >
+            <svg width="60" height="40" fill="#E1E1E1">
+              <use href="./images/icons.svg#right-arrow-testimonial"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </section>
+    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
