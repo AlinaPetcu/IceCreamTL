@@ -7,7 +7,7 @@ const onNext = () => {
 
     percentage = -100 * translate;
     items.forEach((item) => {
-      item.style.transform = `rotateX(180deg)`;
+      item.style.transform = `rotateY(180deg)`;
     });
   }
 };
@@ -19,7 +19,7 @@ const onBack = () => {
 
     percentage = -100 * translate;
     items.forEach((item) => {
-      item.style.transform = `rotateX(180deg)`;
+      item.style.transform = `rotateY(0deg)`;
     });
   }
 };
