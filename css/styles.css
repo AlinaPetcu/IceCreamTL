@@ -801,6 +801,11 @@ display: flex;
     font-size: 16px;
     font-weight: 700;
     border: none;
+    transition: transform 250ms;
+}
+
+.contacts-location-button:hover {
+    transform: translateY(-0.50em);
 }
 
 .contacts-franchise-button{
@@ -814,6 +819,11 @@ display: flex;
     font-size: 16px;
     font-weight: 700;
     border: none;
+    transition: transform 250ms;
+}
+
+.contacts-franchise-button:hover { 
+    transform: translateY(-0.50em);
 }
 
 /*End Contacts side*/
