@@ -824,6 +824,7 @@ display: flex;
 
 .contacts-franchise-button:hover { 
     transform: translateY(-0.50em);
+    background: #ECEBEB;
 }
 
 /*End Contacts side*/
@@ -954,6 +955,10 @@ display: flex;
         font-size: 14px;
         font-weight: 500;
         line-height: 183%;
+    }
+
+    .address-style:hover{
+        color: #D41443;
     }
 
     .contacts-type-cafe {
